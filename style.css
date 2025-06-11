@@ -18,7 +18,19 @@
 
 #home_link{
     font-size:28pt;
+    background-color:darkgreen;
+    color:white;
+    border-color:black;
+    border-width:3px;
+    border-style:solid;
+    border-radius: 4px;
+    padding:5px;
 } 
+
+#home_link:hover{
+    background: lightgreen;
+    color:#333;
+}
 
 #index_buttons li{
     min-width:200px;
@@ -30,12 +42,12 @@
     font-size:24pt;
 }
 a{
-    color:navy;
+    color:darkgreen;
     text-decoration:none;
 }
 
 a:hover{
-    color:green;
+    color:lightgreen;
 }
 
 #content_box{
